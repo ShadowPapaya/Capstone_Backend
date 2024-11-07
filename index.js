@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3000;
 
 // Load the service account key file
-const credentials = JSON.parse(fs.readFileSync('credentials.json'));
+const credentials = JSON.parse(fs.readFileSync('/credentials.json'));
 
 // Google Sheets configuration
 const spreadsheetId = '1ARmiXfzcgx2pMnB15LyGQGSeiY1Itz7uB4feiuOXvoo'; // Replace with your Google Sheets ID
